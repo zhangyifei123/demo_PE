@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale = 1">
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <!-- <script src="../bootstrap/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="../css/attention.css">
+    <script src="../js/swiper-3.4.2.min.js"></script>
+    <link rel="stylesheet" href="../css/swiper-3.4.2.min.css">
+</head>
+<body>
+<div class="contents">
+    <header>
+        <div class="head">
+            <div>
+                <a href="mine.html"><img src="../images/nav_back.png" alt=""></a>
+                <span onclick="attention()" id="myAttention">我的关注</span>
+                <span onclick="fans()" id="myFans">我的粉丝</span>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="focus_on">
+                        <div>
+                            <img src="../images/homeNoContacts.png" alt="" class="noContacts">
+                            <p> 现在就去关注更多的人,一起监督加油吧 </p>
+                            <a href="">
+                                <img src="../images/btn_addFriend_n.png" alt="" class="addfriends">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="fans">
+                        <div>
+                            <img src="../images/homeNoContacts.png" alt="" class="noContacts">
+                            <p>想涨粉？常逛社区，点赞发帖多互动</p>
+                            <a href="">
+                                <img src="../images/btn_shequjingxuan_n.png" alt="" class="select">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../js/attention.js"></script>
+    </section>
+</div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: "微软雅黑";
+    color: #333;
+    -webkit-tap-highlight-color:transparent;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    background-color: rgb(230,230,230);
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+input{
+    border:none;
+    outline: none;
+    -webkit-appearance:none;
+}
+ul,ol{
+    list-style: none;
+}
+.contents,.head{
+    width:100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin:0 auto;
+}
+header{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    height:44px;
+    z-index: 200;
+}
+.head{
+    padding-left:5%;
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid rgb(222,222,223);
+    line-height:40px;
+    color: rgb(54,54,55);
+    background-color: white;
+}
+.head span{
+    margin-left:10%;
+}
+.training{
+    margin-top:44px;
+    background-color:white;
+    width:100%;
+}
+.training .training_to_remind>span,.training .cache_management>span{
+    display:inline-block;
+    padding:3% 3%;
+    width:90%;
+}
+.accounts{
+    margin-top:3%;
+    background-color:white;
+    width:100%;
+}
+.accounts .account_management>span,.accounts .new_message>span,.accounts .blacklist>span{
+    display:inline-block;
+    padding:3% 3%;
+    width:90%;
+}
+.accounts .save_a_picture>span{
+    display:inline-block;
+    padding:3% 3%;
+    width:80%;
+}
+.accounts .save_a_picture>span>span{
+    color: rgba(179,179,179,1);
+    font-size: 12px;
+}
+.accounts .save_a_picture #turn_off{
+    margin-top:-5%;
+
+}
+.accounts .save_a_picture #switch_on{
+    margin-top:-5%;
+}
+.hot_coach{
+    margin-top:3%;
+    background-color:white;
+    width:100%;
+}
+.hot_coach .coach_certification .coach_certification_span{
+    display:inline-block;
+    padding:3% 3%;
+    width:71%;
+}
+.hot_coach .coach_certification .span_gray{
+    color:rgba(179,179,179,1);
+    font-size:12px;
+}
+.recommend{
+    margin-top:3%;
+    background-color:white;
+    width:100%;
+}
+.recommend .friends,.recommend .check_for_updates{
+    display:inline-block;
+    padding:3% 3%;
+    width:100%;
+}
+.recommend .about_us>span,.recommend .feedback>span{
+    display:inline-block;
+    padding:3% 3%;
+    width:90%;
+}
+.exit{
+    margin-top:5%;
+    background-color:white;
+    width:100%;
+}
+.exit>span{
+    display:inline-block;
+    width:100%;
+    padding:3% 40%;
+    color:red;
+}
+.last{
+    width:100%;
+}
+.last>span{
+    display:inline-block;
+    width:100%;
+    padding:3% 40%;
+    color:rgba(179,179,179,1);
+}

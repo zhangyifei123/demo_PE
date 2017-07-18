@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale = 1">
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <!-- <script src="../bootstrap/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="../css/edit.css">
+</head>
+<body>
+<div class="contents">
+    <header>
+        <div class="head">
+            <a href="mine.html"><img src="../images/nav_back.png" alt=""></a>
+            <span>编辑个人资料</span>
+            <a href=""><span class="save">保存</span></a>
+        </div>
+    </header>
+    <section>
+        <div class="edit_content">
+            <div class="head_portrait">
+                <img src="../images/headPortrait.jpg" alt="" class="img-circle">
+                <img src="../images/img_change_header@2x.png" alt="" class="camera">
+            </div>
+        </div>
+        <div class="personal_information">
+            <div class="personal_information_input">
+                <span>昵称</span>
+                <input type="text" />
+            </div>
+        </div>
+        <div class="personal_information2">
+            <div class="personal_information_input2">
+                <span>个性签名</span>
+                <input type="text" placeholder="一句话介绍自己" />
+            </div>
+        </div>
+        <div class="informations">
+            <div class="informations_location">
+                <span>所在地</span>
+                <div>
+                    <select name="" id="province" onchange="showCity()">
+                        <option value="">北京市</option>
+                        <option value="">山东省</option>
+                        <option value="">江苏省</option>
+                        <option value="">安徽省</option>
+                        <option value="">河南省</option>
+                    </select>
+                    <img src="../images/selectPhotoDown.png" alt="">
+                </div>
+                <div>
+                    <select name="" id="city">
+                        <option value="">北京市</option>
+                    </select>
+                    <img src="../images/selectPhotoDown.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="informations">
+            <div class="informations_sex">
+                <span>性别</span>
+                <div>
+                    <select>
+                        <option value="">男</option>
+                        <option value="">女</option>
+                    </select>
+                    <img src="../images/selectPhotoDown.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="informations">
+            <div class="informations_birthday">
+               <span>生日</span>
+               <div>
+                    <select>
+                        <option value="">2001年</option>
+                        <option value="">2002年</option>
+                        <option value="">2003年</option>
+                        <option value="">2004年</option>
+                        <option value="">2005年</option>
+                        <option value="">2006年</option>
+                        <option value="">2014年</option>
+                        <option value="">2016年</option>
+                        <option value="">2017年</option>
+                        <option value="">2018年</option>
+                    </select>
+                    <img src="../images/selectPhotoDown.png" alt="">
+               </div>
+               <div>
+                    <select>
+                        <option value="">1月</option>
+                        <option value="">2月</option>
+                        <option value="">3月</option>
+                        <option value="">4月</option>
+                        <option value="">5月</option>
+                        <option value="">6月</option>
+                        <option value="">7月</option>
+                        <option value="">8月</option>
+                        <option value="">9月</option>
+                        <option value="">10月</option>
+                        <option value="">11月</option>
+                        <option value="">12月</option>
+                    </select>
+                    <img src="../images/selectPhotoDown.png" alt="">
+               </div>
+            </div>
+        </div>
+        <div class="informations">
+            <div class="informations_height">
+                <span>身高</span>
+                <div>
+                    <select>
+                        <option value="">110cm</option>
+                        <option value="">120cm</option>
+                        <option value="">130cm</option>
+                        <option value="">140cm</option>
+                        <option value="">150cm</option>
+                        <option value="">160cm</option>
+                        <option value="">170cm</option>
+                        <option value="">180cm</option>
+                        <option value="">190cm</option>
+                        <option value="">200cm</option>
+                        <option value="">210cm</option>
+                        <option value="">220cm</option>
+                    </select>
+                    <img src="../images/selectPhotoDown.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="informations">
+            <div class="informations_weight">
+                <span>体重</span>
+                <div>
+                    <select>
+                        <option value="">20kg</option>
+                        <option value="">30kg</option>
+                        <option value="">40kg</option>
+                        <option value="">50kg</option>
+                        <option value="">60kg</option>
+                        <option value="">70kg</option>
+                        <option value="">820kg</option>
+                        <option value="">90kg</option>
+                        <option value="">100kg</option>
+                        <option value="">110kg</option>
+                        <option value="">120kg</option>
+                        <option value="">130kg</option>
+                    </select>
+                    <img src="../images/selectPhotoDown.png" alt="">
+                </div>
+            </div>
+        </div>
+        <script src = "../js/edit.js"></script>
+    </section>
+</div>
+</body>
+</html>
