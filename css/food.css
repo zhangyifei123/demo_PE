@@ -1,0 +1,18 @@
+		.classification>.class_all{
+			width: 15%;
+			border:1px  solid  red;
+			text-align: center;
+			border-radius:15px;
+			margin-left: 2%;
+			background-color: white;
+		}
+		
+		.classification>.class_all>a{
+			color: red;
+		}
+		#all{
+				background-color: red;
+		}
+		#all>a{
+			color: white;
+		}	
