@@ -1,0 +1,144 @@
+*{
+	/*border:1px solid red;*/
+}
+.nav_img a{
+	vertical-align: middle;
+}
+header .head .head_font{
+	border:none;
+}
+
+.head>p{
+	display: inline-block;
+	margin-left: -150px;
+}
+.head>.nav_img{
+	margin-left: -100px;
+}
+.swiper-container {
+    width: 100%;
+}  
+section{
+	margin-top: 44px;
+}
+body{
+	background-color: rgb(226,226,226);
+}
+.top{
+	font-size: 12px;
+	color: rgb(102,102,102);
+	line-height: 20px;
+	padding: 5px 15px;
+}
+.swiper-wrapper{
+	width: 100%;
+}
+.swiper-slide{
+	width: 100%;
+}
+.section_text_box{
+	height: auto;
+	width: 100%;
+	padding:5px 0;
+}
+.section_text_box>div{
+	width: 100%;
+	display: flex;
+	padding: 5px 0px;
+	height: 60px;
+	background-color: rgb(249,249,249);
+}
+.section_text_box>div>img{
+	width: 100px;
+	height: 25px;
+	margin-right: 20px;
+}
+.section_text_box>div>a{
+	display: inline-block;
+	border-bottom: 1px solid rgb(203,203,203);
+	margin-right: 15px;
+}
+.section_text_box>div>a>p{
+	width: 100%;
+	display: inline-block;
+	overflow: hidden;
+	padding:5px 0;
+	border-bottom: 2px solid red;
+}
+.section_text_box>div>a>p>img{
+	width: 8%;
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+.name{
+	vertical-align: top;
+	font-size: 12px;
+}
+.number{
+	vertical-align: top;
+	font-weight: bold;
+	float: right;
+	margin-right: 5px;
+}
+.main{
+	font-size: 12px;
+	color: rgb(102,102,102);
+	float: right;
+	margin-right: 15px;
+}
+.NO_num{
+	padding: 10px 25px;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.all_red{
+	margin-left: 5px;
+}
+.section_text_box_two{
+	width: 100%;
+}
+.section_text_box_two>div{
+	width: 100%;
+	padding: 5px 0;
+	margin-bottom: 6px;
+	background-color: rgb(249,249,249);
+	height:200px;
+}
+.section_text_box_two>div>div{
+	display: inline-block;
+	width: 10%;
+}
+.section_text_box_two>div>.section_text_box_two_img{
+	width: 80%;
+	text-align: center;
+}
+.section_text_box_two>div>div>a{
+	width: 100%;
+}
+.section_text_box_two>div>div>a>img{
+	width: 8%;
+	border-radius: 50%;
+}
+.section_text_box_two>div>div>a>p{
+	font-size: 13px;
+	color:rgb(73,73,73);
+}
+.section_text_box_two>div>div>a>span{
+	font-size: 12px;
+	color:rgb(123,123,123);
+}
+.nub_NO{
+	vertical-align: top;
+}
+.section_text_box_two>div>a{
+	display: inline-block;
+	width: 25%;
+	height: 55%
+}
+.section_text_box_two>div>a>img{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
