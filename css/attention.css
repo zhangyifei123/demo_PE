@@ -61,6 +61,10 @@ header{
 .head>div>a{
     // border:1px solid red;
 }
+.seg_highlight{
+    color:red;
+    border-bottom:2px solid red;
+}
 .swiper-container {
     max-width: 640px;
     min-width: 320px;

@@ -18,8 +18,8 @@
         <div class="head">
             <div>
                 <a href="mine.html"><img src="../images/nav_back.png" alt=""></a>
-                <span onclick="attention()" id="myAttention">我的关注</span>
-                <span onclick="fans()" id="myFans">我的粉丝</span>
+                <span class="segment seg_highlight" onclick="gotoIndex(this,0)" id="myAttention">我的关注</span>
+                <span class="segment " onclick="gotoIndex(this,1)" id="myFans">我的粉丝</span>
             </div>
         </div>
     </header>
@@ -27,7 +27,7 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="focus_on">
+                    <div class="focus_on" >
                         <div>
                             <img src="../images/homeNoContacts.png" alt="" class="noContacts">
                             <p> 现在就去关注更多的人,一起监督加油吧 </p>
@@ -37,8 +37,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="fans">
+                <div class="swiper-slide" >
+                    <div class="fans focus_on" >
                         <div>
                             <img src="../images/homeNoContacts.png" alt="" class="noContacts">
                             <p>想涨粉？常逛社区，点赞发帖多互动</p>
