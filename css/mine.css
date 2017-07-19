@@ -1,0 +1,213 @@
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+	color: #333;
+	-webkit-tap-highlight-color:transparent;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	background-color: rgb(230,230,230);
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+input{
+	border:none;
+	outline: none;
+	-webkit-appearance:none;
+}
+ul,ol{
+	list-style: none;
+}
+.head,.mine,.foot{
+	width:100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin:0 auto;
+}
+header{
+	position: fixed;
+	left: 0px;
+	top:0px;
+	width:100%;
+	height:44px;
+	z-index: 200;
+}
+.head{
+	display: flex;
+	justify-content: space-between;
+	padding-left:10%;
+	padding-right:10%;
+	width: 100%;
+	height: 44px;
+	border-bottom: 1px solid rgb(222,222,223);
+	line-height:55px;
+	color: rgb(54,54,55);
+	background-color: white;
+}
+// .whiteSpace{
+// 	width: 100%;
+// 	height: 44px;
+// }
+.head>p{
+	font-size: 14px;
+	color:black;
+}
+.personalData{
+	width:100%;
+	margin-top:14%;
+	background-color: white;
+}
+.personalData .headPortrait{
+	width:100%;
+	position: relative;
+}
+.personalData .headPortrait .headPortrait_img{
+	width:20%;
+	margin-left: 5%;
+	margin-top: 6%;
+}
+.personalData .headPortrait .headPortrait_img img{
+	width:100%;
+}
+.personalData .headPortrait .nickname{
+	width:40%;
+	margin-left: 2%;
+	position: absolute;
+	top:32%;
+}
+.personalData .headPortrait .nickname>p{
+	font-size: 15px;
+	color:black;
+}
+.personalData .headPortrait p{
+	width:100%;
+}
+.personalData .headPortrait li{
+	display: inline-block;
+	margin-bottom: 4%;
+}
+.personalData .headPortrait .personalHomepage{
+	width:30%;
+	margin-left: 43%;
+}
+.personalData .headPortrait .personalHomepage>a{
+	color: rgba(179,179,179,1);
+}
+.personalData .headPortrait .personalHomepage img{
+	margin-left: 13%;
+}
+.cumulative{
+	background-color: white;
+	display: flex;
+}
+.cumulative .cumulativeTraining{
+	width:48%;
+	text-align: center;
+	margin-top: 5%;
+}
+.cumulative .clock_in_fat_burn{
+	justify-content: space-around;
+	width:45%;
+	text-align: center;
+	margin-top:-4%;
+}
+.cumulative .smallArrow{
+	width:8%;
+	margin-top: 19%;
+}
+.medal_rankings{
+	margin-top: 3%;
+	width:100%;
+	background-color: white;
+}
+.medal_rankings .medal{
+	border-bottom:1px solid rgb(222,222,223);
+}
+.medal_rankings .medal,.medal_rankings .ranking{
+	width:100%;
+	padding:5% 6%;
+}
+.medal_rankings .medal .small_arrow,.medal_rankings .ranking .small_arrow{
+	float:right;
+	margin-top: 2%;
+}
+.activity{
+	width:100%;
+	background-color: white;
+	margin-top: 3%;
+}
+.activity>div{
+	width:100%;
+	padding:5% 6%;
+}
+.activity>div>.small_arrow{
+	margin-top: 2%;
+	float:right;
+}
+.concern{
+	margin-top: 3%;
+	width:100%;
+	background-color: white;
+}
+.concern .fans,.concern .add_friends,.concern .my_collection{
+	width:100%;
+	padding:5% 6%;
+}
+.concern .fans,.concern .add_friends{
+	border-bottom:1px solid rgb(222,222,223);
+}
+.concern .fans .small_arrow,.concern .add_friends .small_arrow,.concern .my_collection .small_arrow{
+	float:right;
+	margin-top: 2%;
+}
+.setting{
+	width:100%;
+	background-color: white;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.setting>div{
+	width:100%;
+	padding:5% 6%;
+}
+.setting>div>.small_arrow{
+	margin-top: 2%;
+	float:right;
+}
+.whiteSpace{
+	width:100%;
+	height:44px;
+}
+.foot{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 44px;
+	border: 1px solid rgb(222,222,223);
+	/*line-height:44px;*/
+	color: rgb(192,192,192);
+	position: fixed;
+	bottom:0px;
+	z-index: 201;
+	background-color: white;
+}
+.foot>div{
+	font-size: 12px;
+	margin-top: 1%;
+	margin-left: 8%
+}
+.foot>div>a>img{
+	width: 50%;
+}
+.foot>div>a>img,p{
+   color: rgba(179,179,179,1);
+   margin-top: -2%;
+}
+

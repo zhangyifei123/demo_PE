@@ -1,0 +1,210 @@
+*{
+	margin:0px;
+	padding: 0px;
+	-webkit-tap-highlight-color:transparent;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	font-family: "微软雅黑";
+	color: #333;
+	font-size: 14px;
+	background-color: rgba(245,245,245,1)
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+input{
+	border:none;
+	outline: none;
+	-webkit-appearance:none;
+}
+ul,ol{
+	list-style: none;
+}
+.big_header{
+	padding-top: 150px;
+}
+.big_header,.foot,.head,.Calendar_head,.head_nav{
+	width: 100%;
+	min-width: 320px;
+	margin:0 auto;
+	max-width: 640px;
+}
+.head{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 44px;
+	line-height:44px;
+	color: rgb(54,54,55);
+	z-index: 2000;
+	background-color: rgba(221,76,57,1);
+}
+.head>p{
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+
+}
+.head>a>.Calendar{
+	margin-left: -25px;
+	margin-top: 10px;
+}
+.head>a>.Search{
+	margin-right: -25px;
+	margin-top: 10px;
+}
+.head_nav{
+	width: 100%;
+	height: 44px;
+	background-color: rgba(221,76,57,1);
+	line-height: 44px;
+	display: flex;
+	justify-content: space-around;
+	padding: 0 8%;
+}
+.Plan{
+	border-bottom: 3px solid white;
+}
+.head_nav>.Plan>.Plan_span{
+	color: white;
+}
+.free{
+	color: rgba(254,157,174,1);
+}
+header{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 2000;
+}
+.Calendar_head{
+	height: 45px;
+}
+.Calendar_head>a{
+	display: block;
+}
+.Calendar_head>a>ul{
+	background-color: rgba(221,76,57,1);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+.Calendar_head>a>ul>li{
+	color: white;
+	margin-top: 2%;	
+}
+.new_Course{
+	display: flex;
+	justify-content: space-around;
+}
+.new_title{
+	width:320px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 25px;
+	color: rgba(221,76,57,1);
+	font-weight: bold;
+	text-align: center;
+	background-color: white;
+	
+}
+.Recommend{
+	margin-left: 30px;
+}
+.Training_one{
+	width: 92%;
+	height: 150px;
+	border:1px solid white;
+	margin-left: 15px;
+	background-color: white;
+	border-radius: 11px;
+	background-image: url(../images/introduction_one.jpg);
+	background-size: 100% 150px;
+	opacity: 0.9;
+}
+.Training_two{
+	width: 92%;
+	height: 150px;
+	border:1px solid white;
+	margin-left: 15px;
+	background-color: white;
+	border-radius: 11px;
+	background-image: url(../images/introduction_three.jpg);
+	background-size: 100% 150px;
+	opacity: 0.9;
+}
+.Training_three{
+	width: 92%;
+	height: 150px;
+	border:1px solid white;
+	margin-left: 15px;
+	background-color: white;
+	border-radius: 11px;
+	background-image: url(../images/introduction_two.jpg);
+	background-size: 100% 150px;
+	opacity: 0.9;
+}
+.Training_one>span{
+	color: white;
+	font-size: 25px;
+}
+.Training_one>p{
+    color: white;
+}
+.Training_two>span{
+	color: white;
+	font-size: 25px;
+}
+.Training_two>p{
+    color: white;
+}
+.Training_three>span{
+	color: white;
+	font-size: 25px;
+}
+.Training_three>p{
+    color: white;
+}
+.Training_num{
+	position: relative;
+	top: 45%;
+}
+.foot{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 44px;
+	border: 1px solid rgb(222,222,223);
+	/*line-height:44px;*/
+	color: rgb(192,192,192);
+	position: fixed;
+	bottom:0px;
+	z-index: 201;
+	background-color: white;
+}
+.foot>div{
+	font-size: 12px;
+	padding-top: 1%;
+	margin-left:9%;
+}
+.foot>div>a>img{
+	width: 50%;
+}
+.foot>div>a>img,p{
+   color: rgba(179,179,179,1);
+   margin-top: -2px;
+}
+.title_str{
+	color: rgba(221,75,57,1);
+}
+footer{
+	padding-bottom: 46px;
+}

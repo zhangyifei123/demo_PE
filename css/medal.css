@@ -1,0 +1,119 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: "微软雅黑";
+    color: #333;
+    -webkit-tap-highlight-color:transparent;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    background-color: rgb(242,242,245);
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+input{
+    border:none;
+    outline: none;
+    -webkit-appearance:none;
+}
+ul,ol{
+    list-style: none;
+}
+.contents,.head{
+    width:100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin:0 auto;
+}
+header{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    height:44px;
+    z-index: 200;
+}
+.head{
+    padding-left:5%;
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid rgb(222,222,223);
+    line-height:40px;
+    color: rgb(54,54,55);
+    background-color: white;
+}
+.head span{
+    margin-left:10%;
+}
+.not_unlock{
+    margin-top:44px;
+    width:100%;
+    text-align: center;
+}
+.not_unlock span{
+    border:1px solid rgb(235,235,236);
+    width:30%;
+    display:inline-block;
+}
+.not_unlock .thirty-four{
+    padding:2%;
+    border:none;
+    font-size:13px;
+}
+.not_unlock .line{
+    vertical-align: middle;
+}
+.medals{
+    display: flex;
+    justify-content:space-around;
+    width:100%;
+    margin-top:4%;
+}
+.medals .boxs{
+    width:90%;
+    display: flex;
+    justify-content:space-between;
+}
+.medals .boxs div{
+    width:30%;;
+    text-align:center;
+}
+.medals .boxs div>img{
+    width:60%;
+}
+.medals .boxs div>p{
+    width:100%;
+    text-align:center;
+    margin-top:5%;
+    font-size: 10px;
+}
+.medal2{
+    display: flex;
+    justify-content:space-around;
+    width:100%;
+    margin-top:2%;
+}
+.medal2 .box2{
+    width:94%;
+    display: flex;
+    justify-content:space-between;
+}
+.medal2 .box2 div{
+    width:35%;
+    text-align:center;
+}
+.medal2 .box2 div>img{
+    width:60%;
+}
+.medal2 .box2 div>p{
+    width:100%;
+    text-align:center;
+    margin-top:5%;
+    font-size:10px;
+}

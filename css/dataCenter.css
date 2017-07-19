@@ -1,0 +1,160 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: "微软雅黑";
+    color: #333;
+    -webkit-tap-highlight-color:transparent;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size:12px;
+}
+body{
+    background-color: rgb(238,242,241);
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+input{
+    border:none;
+    outline: none;
+    -webkit-appearance:none;
+}
+ul,ol{
+    list-style: none;
+}
+.contents,.head{
+    width:100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin:0 auto;
+}
+header{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    height:44px;
+    z-index: 200;
+}
+.head{
+    padding-left:5%;
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid rgb(222,222,223);
+    line-height:40px;
+    color: rgb(54,54,55);
+    background-color: white;
+}
+.head span{
+    margin-left:10%;
+    font-size:14px;
+}
+.datas{
+    margin-top:50px;
+    background-color:white;
+    width:100%;
+}
+.datas .cumulative_training{
+    width:100%;
+    text-align: center;
+    padding-top:1%;
+}
+.cumulative_training h1{
+    margin-top:10%;
+}
+.cumulative_training p{
+    color:rgb(198,198,198);
+}
+.datas .datas_zero{
+    width:100%;
+    display: flex;
+    justify-content:space-around;
+}
+.datas .datas_zero .fat_burning,.datas .datas_zero .clock_in,.datas .datas_zero .energy_value{
+    text-align:center;
+}
+.datas .datas_zero .fat_burning p,.datas .datas_zero .clock_in p,.datas .datas_zero .energy_value p{
+    color:rgb(198,198,198);
+}
+.punch_card{
+    background-color:white;
+    width:100%;
+    margin-top:2%;
+}
+.punch_card a .clock_calendar{
+    display:flex;
+    justify-content:space-between;
+    padding:3% 5%;
+    border-bottom:1px solid rgb(228,228,228);
+}
+.punch_card a .weeks{
+    display:flex;
+    justify-content:space-around;
+    margin-top:3%;
+}
+.punch_card a .weeks>span{
+    color:rgba(179,179,179,1);
+}
+.punch_card a .dates{
+    display:flex;
+    justify-content:space-around;
+    margin-top:3%;
+}
+.punch_card a .dates>span{
+    font-size: 10px;
+}
+.training_records{
+    width:100%;
+    background-color:white;
+    margin-top:2%;
+    display:flex;
+    justify-content:space-around;
+}
+.training_records .trainings{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+}
+.training_records .trainings p{
+    padding:3% 0%;
+}
+.training_records .trainings p span{
+    font-size:10px;
+    color:rgba(179,179,179,1);
+}
+.training_records .trainings div{
+    padding-top:4%;
+}
+.not_started{
+    width:100%;
+    background-color:white;
+    display:flex;
+    justify-content:space-around;
+}
+.not_started>div{
+    background-color: rgb(238,242,241);
+    width:90%;
+    border-bottom:1px solid rgb(222,222,223);
+    text-align:center;
+    padding:10% 0%;
+}
+.not_started>div>span{
+    font-weight: bold;
+}
+.months{
+    width:100%;
+    background-color:white;
+}
+.months>div{
+    width:80%;
+    display:flex;
+    justify-content:space-around;
+    margin-left:2%;
+}
+.months>div>span{
+    margin-top:2%;
+}
