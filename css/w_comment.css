@@ -1,0 +1,119 @@
+
+		*{
+			margin: 0;
+			padding:0;
+			-webkit-tap-highlight-color:transparent;
+
+			box-sizing: border-box;
+			-webkit-box-sizing:border-box;
+			
+		}
+		body{
+			font-size: 16px;
+			font-family: "微软雅黑";
+			color: #333;
+		}
+		a{
+			color: #333;
+			text-decoration: none;
+		}
+		a:hover{
+			text-decoration: none;
+		}
+		input{
+			border:none;
+			outline: none;
+			-webkit-appearance:none;
+		}
+		ul,ol{
+			list-style-type: none;
+
+		}
+		.content,header,footer{
+			width: 100%;
+			max-width: 640px;
+			min-width: 320px;
+			margin: 0 auto;
+			background-color: white;
+		}
+		.content>header{
+			display: flex;
+			/*justify-content: space-around;*/
+			width: 100%;
+			height: 44px;
+			border-bottom: 1px solid rgb(222,222,223);
+			line-height:44px;
+			color: rgb(54,54,55);
+			background-color: white;
+			position: absolute;
+			top: 0;
+			z-index: 999999;
+		}
+		.content>header>a>img{
+			width: 50%;
+			margin-left: 35%;
+			/*width: 30px;
+			height: 30px;*/
+			
+		}
+		.content>header>span{
+			margin-left: 10%;
+		}
+		.content>main>p>span{
+		
+			border-bottom:2px solid black;
+			padding-bottom: 3%;
+			margin-left: 5%;
+		}
+		.content>main>p{
+			border-bottom: 1px solid rgb(222,222,223);
+			padding:3% 0;
+		}
+		.content>footer{
+			display: flex;
+			justify-content: space-between;
+			/*padding:3% 0;*/
+			width: 100%;
+			height: 44px;
+			background-color: rgb(240,240,240);
+			position: fixed;
+			bottom: 0px;
+			padding-top: 10px;
+		}
+		.content>footer>img{
+			width: 30px;
+			height: 30px;
+			margin-left: 2.5%;
+		}
+		.content>footer>span{
+			margin-right: 2.5%;
+		}
+		.content>footer>textarea{
+			border:none;
+			border-bottom: 2px solid rgb(161,192,206);
+			background-color: rgb(240,240,240);
+		}
+		.content>section>div>img{
+			width: 30px;
+			height: 30px;
+		}
+		.Givethethumbsup{
+			float: right;
+			margin-right: 2.5%;
+			/*display: flex;*/
+			/*justify-content: space-between;*/
+		}
+		.img_ha{
+			margin-left: 2.5%;
+		}
+		.section_div,.section_div12{
+			margin-left: 14%;
+			border-bottom: 1px solid rgb(222,222,223);
+			width: 100%;
+			overflow: hidden;
+
+		}
+		.Tomorrow{
+			font-size: 14px;
+			margin-left: 2.5%;
+		}

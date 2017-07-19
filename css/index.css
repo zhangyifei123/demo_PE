@@ -135,6 +135,11 @@ ul,ol{
 .free{
 	color: rgba(254,157,174,1);
 }
+#More{
+	position: fixed;
+	left: 80%;
+	top: 79%;
+}
 header{
 	position: fixed;
 	left: 0px;
