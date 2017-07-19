@@ -104,7 +104,7 @@ $.ajax({
             img1.attr("src",bannerss.avatar);
             p1.text(bannerss.username);
             img2.attr("src","../images/btn_addFollow_h@2x.png");
-            var a2 = $("<a href=''></a>");
+            var a2 = $("<a href='details_page_m.html'></a>");
             var img3 = $("<img src='' alt='' />");
             a2.append(img3);
             a2.append(p2);

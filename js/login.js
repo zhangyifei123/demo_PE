@@ -11,7 +11,7 @@ $(".form").validate({
 				alert(obj.msg);
 				var iconUrl = obj.iconUrl;
 				if(obj.code == 1){
-					location.href = "success.html?name="+$(".form").val()+"&url="+iconUrl;
+					location.href = "index.html";
 				}	
 			}
 		});
@@ -32,5 +32,5 @@ $(".form").validate({
 	}
 });
 function fun(){
-	location.href="index.html"
+	location.href="index.html";
 }
