@@ -4,8 +4,8 @@
 .nav_img a{
 	vertical-align: middle;
 }
-header .head .head_font{
-	border:none;
+.seg_high{
+	color: red;
 }
 
 .head>p{

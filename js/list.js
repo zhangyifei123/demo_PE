@@ -1,6 +1,14 @@
 var mySwiper = new Swiper ('.swiper-container', {
-    // loop: true,
-});  
+    onSlideChangeEnd:function(swiper){
+        $('.segment').removeClass('seg_high');
+        $($('.segment')[swiper.activeIndex]).addClass('seg_high');
+    }
+});
+function gotoindex(ele,index){
+    $('.segment').removeClass('seg_high');
+    $(ele).addClass('seg_high');
+    mySwiper.slideTo(index,500,false);
+}  
 var flag = false;
 if (!false) {
    loadData(); 
@@ -22,7 +30,7 @@ function loadData(){
         for(var i = 3; i < obj.length; i++){
             var div = $("<div></div>");
             var span3 = $("<span class='NO_num'></span>");
-            var a = $('<a href="" class="all_red"></a>');
+            var a = $('<a href="personalHomepage.html" class="all_red"></a>');
             var p =$('<p></p>');
             var img = $('<img src="" alt="" class="head_img" />');
             var span = $('<span class="name"></span>');
@@ -57,7 +65,7 @@ $.ajax({
             var div1 = $('<div class="nub_NO"></div>');
             var div2 = $('<div class="section_text_box_two_img"></div>'); 
             var img = $('<span></span>');
-            var a = $('<a href=""></a>');
+            var a = $('<a href="personalHomepage.html"></a>');
             var img1 = $('<img src="" alt="" />');
             var p = $('<p></p>');
             var span = $('<span></span>');
@@ -75,7 +83,7 @@ $.ajax({
             $('.section_text_box_two').append(div);
             var obj1 = obj[i].selected_stories;
             for(var j = 0;j < obj1.length; j++){
-                var aa = $('<a href=""></a>');
+                var aa = $('<a href="details_page_m.html"></a>');
                 var imgg = $('<img src="" alt="" />');
                 aa.append(imgg);
                 div.append(aa);
