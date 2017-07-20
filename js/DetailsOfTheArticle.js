@@ -76,7 +76,7 @@ $('.Praise').click(function(){
 			 $(".div_zan1>img").attr("src",'../images/btn_feedDetailPraised_s@2x.png');
 				 isshow = true;
 			} else {
-				 $(".div_zan1>img").attr("src",'../images/btn_feedPraised_n@2x.png');
+				 $(".div_zan1>img").attr("src",'../images/btn_feedDetailPraised_n@2x.png');
 				 isshow = false;
 			}
 			
@@ -87,7 +87,7 @@ $('.Praise').click(function(){
 			 $(".div_zan2>img").attr("src",'../images/btn_feedDetailPraised_s@2x.png');
 				 isshow = true;
 			} else {
-				 $(".div_zan2>img").attr("src",'../images/btn_feedPraised_n@2x.png');
+				 $(".div_zan2>img").attr("src",'../images/btn_feedDetailPraised_n@2x.png');
 				 isshow = false;
 			}
 			})
@@ -97,7 +97,7 @@ $('.Praise').click(function(){
 			 $(".div_zan3>img").attr("src",'../images/btn_feedDetailPraised_s@2x.png');
 				 isshow = true;
 			} else {
-				 $(".div_zan3>img").attr("src",'../images/btn_feedPraised_n@2x.png');
+				 $(".div_zan3>img").attr("src",'../images/btn_feedDetailPraised_n@2x.png');
 				 isshow = false;
 			}
 		})

@@ -16,8 +16,9 @@
 														)");
 	if (!$res) {
 		echo "有错";
+		return;
 	}else{
-		echo "创建完成";
+		// echo "创建完成";
 	}
 
 	$name = $_REQUEST["name"];
