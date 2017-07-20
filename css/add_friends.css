@@ -1,0 +1,146 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: "微软雅黑";
+    color: #333;
+    -webkit-tap-highlight-color:transparent;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size:12px;
+}
+body{
+    background-color: rgb(242,242,245);
+    font-size:12px;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+input{
+    border:none;
+    outline: none;
+    -webkit-appearance:none;
+}
+ul,ol{
+    list-style: none;
+}
+.contents,.head{
+    width:100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin:0 auto;
+}
+header{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    height:44px;
+    z-index: 200;
+}
+.head{
+    // padding-left:5%;
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid rgb(222,222,223);
+    line-height:40px;
+    color: rgb(54,54,55);
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+}
+.head span{
+    font-size:14px;
+}
+.head>div{
+    width:70%;
+    display: flex;
+    justify-content:space-between;
+}
+.friends{
+    margin-top: 44px;
+    background-color:white;
+    width:100%;
+
+}
+.friends>a{
+    display:flex;;
+    justify-content:space-around;
+}
+.friends>a>div{
+    width:95%;
+    display:flex;;
+    justify-content:space-between;
+    padding:2% 2%;
+}
+.friends>a>div .address_book img{
+    width:20%;
+}
+.friends>a>div .microblog img{
+    width:20%;
+}
+.interested_in{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+.interested_in>div{
+    width:90%;
+    padding-top:3%;
+}
+.interested_person{
+    width:100%;
+}
+.interested_person .interested_person_details{
+    width:100%;
+}
+.interested_person .interested_person_details .head_portrait{
+    width:97%;
+    padding:2% 0%;
+    margin:auto;
+    display:flex;
+    justify-content:space-around;
+    margin-top:3%;
+    background-color:white;
+}
+.interested_person .interested_person_details .head_portrait .img-circle{
+    width:10%;
+    vertical-align: top;
+}
+.interested_person .interested_person_details .head_portrait .two_span{
+    width:50%;
+    display:inline-block;
+    padding:0% 3%;
+}
+.interested_person .interested_person_details .head_portrait .editors_recommend{
+    display:block;
+    font-size:10px;
+    color:rgb(162,162,163);
+}
+.interested_person .interested_person_details .head_portrait .with_focus_on{
+    float:right;
+    width:22%;
+}
+.interested_person .fourPictures{
+    width:99%;
+    background-color:white;
+    padding-bottom:4%;
+}
+.interested_person .fourPictures .picture_show{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+.interested_person .fourPictures .picture_show>a{
+    padding-left:1%;
+    width:30%;
+}
+.interested_person .fourPictures .picture_show>a>img{
+    width:100%;
+    height:75px;
+}
+
+

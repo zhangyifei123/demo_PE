@@ -9,7 +9,7 @@
     font-size:12px;
 }
 body{
-    background-color: rgb(242,242,245);
+    background-color:white;
 }
 a{
     color: #333;
@@ -73,34 +73,72 @@ header{
     width:100%;
     margin-top:44px;
 }
-.focus_on>div{
+.focus_on .recommended{
+    width:90%;
+    margin:auto;
+    padding:3% 0%;
+    display:flex;
+    justify-content:space-between;
+}
+.focus_on .recommended .head_portrait_div{
+    width:15%;
+}
+.focus_on .recommended .head_portrait_div .head_portrait{
     width:100%;
-    text-align: center;
 }
-.focus_on>div .noContacts{
-    margin-top: 50%;
+.focus_on .recommended .two_span{
+    width:55%;
+    padding-top: 1.5%;
+    padding-left: 1.5%;
 }
-.focus_on>div p{
-    margin-top:8%;
+.focus_on .recommended .attention_div{
+    width:25%;
+}
+.focus_on .recommended .attention{
+    width:100%;
+    padding-top: 10%;
+}
+.focus_on .recommended .two_span .signature{
+    display:block;
+    font-size: 10px;
     color:rgb(162,162,163);
 }
-.focus_on>div .addfriends{
-    margin-top:10%;
-}
+
 .fans{
     width:100%;
+    margin-top:44px;
 }
-.fans>div{
+.fans .praise{
+    width:90%;
+    margin:auto;
+}
+.fans .praise .all_div{
     width:100%;
-    text-align: center;
+    display:flex;
+    justify-content:space-between;
+    padding:3% 0%;
+    border-bottom: 1px solid rgb(222,222,223);
 }
-.fans>div .noContacts{
-    margin-top: 50%;
+.fans .praise .head_portrait_div{
+    width:15%;
 }
-.fans>div p{
-    margin-top:8%;
+.fans .praise .head_portrait_div .head_portrait{
+    width:100%;
+}
+.fans .praise .two_span{
+    width:55%;
+    padding-top: 1.5%;
+    padding-left: 1.5%;
+}
+.fans .praise .attention_div{
+    width:25%;
+}
+.fans .praise .attention{
+    width:100%;
+    padding-top: 10%;
+}
+.fans .praise .two_span .signature{
+    display:block;
+    font-size: 10px;
     color:rgb(162,162,163);
-}
-.fans>div .select{
-    margin-top:10%;
 }

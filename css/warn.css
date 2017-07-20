@@ -96,8 +96,8 @@ header{
 .photos{
     width:90%;
     margin:auto;
-
 }
 .photos img{
-    width:100%; margin-bottom:6%;
+    width:100%;
+    margin-bottom:6%;
 }
