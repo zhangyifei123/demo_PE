@@ -59,15 +59,14 @@ ul,ol{
 .content>header>div{
 	margin-right: 40%;
 }
-.content>table{
+.content>.Forwarding_table{
 	width: 100%;
 	text-align: center;
 	background-color: rgb(250,250,250);
-	/*border:1px solid red;*/
 	display: none;
 	position: fixed;
 	bottom: 0;
-	z-index: 999999999;
+	z-index: 9999;
 
 }
 .content>table>tbody>tr>.Cancel{
@@ -89,7 +88,7 @@ ul,ol{
 }
 .content>footer>table{
 	width: 100%;
-	height: 44px;
+	height: 56px;
 	border-top:1px solid rgb(222,222,223);
 	z-index: 999;
 }
@@ -148,4 +147,14 @@ main>div>.atten_div>.bgcolor{
 iframe{
 	position: absolute;
 	top: -15px;
+	left: 1%;
+}
+.full_page{
+	width: 100%;
+	height: 1800px;
+	background-color: gray;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	display: none;
 }

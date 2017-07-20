@@ -1,0 +1,307 @@
+*{
+	margin:0px;
+	padding: 0px;
+	-webkit-tap-highlight-color:transparent;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	font-family: "微软雅黑";
+	color: #333;
+	font-size: 14px;
+	background-color: rgba(245,245,245,1)
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+input{
+	border:none;
+	outline: none;
+	-webkit-appearance:none;
+}
+ul,ol{
+	list-style: none;
+}
+header{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 2000;
+}
+.big_header{
+	width: 100%;
+	height: 200px;
+}
+.big_header,.foot,.head,.Calendar_head{
+	width: 100%;
+	min-width: 320px;
+	margin:0 auto;
+	max-width: 640px;
+}
+.head{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 44px;
+	line-height:44px;
+	color: rgba(221,76,57,1);
+	z-index: 2000;
+	background-color: rgba(255,255,255,0.1);
+}
+.head>p{
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	margin-left: -100px;
+	
+}
+.head>a>.Calendar{
+	margin-left: -40px;
+	margin-top: 10px;
+}
+.head>a>.Search{
+	margin-right: -40px;
+	margin-top: 10px;
+}
+.Sandy_beach{
+	width: 100%;
+	height: 200px;
+	background-image: url(../images/introduction_one.jpg);
+	background-size: 100% 200px;
+}
+.Sandy_beach>p{
+	font-size: 22px;
+	margin-left: 18%;
+	position: relative;
+	top: 30%;
+	color: white;
+	padding: 0 30px;
+}
+.Difficulty{
+	color: white;
+	margin-top: 80px;
+	display: flex;
+	justify-content: space-around;
+}
+.Sandy_beach .bsck{
+   font-size: 12px;
+   margin-left: 35%;
+}
+.num{
+	margin-left: 10px;
+	font-size: 30px;
+}
+.explain{
+	width: 100%;
+	height: 210px;
+	background-color: white;
+}
+.flexible{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	text-align: center;
+	line-height: 50px;
+	color: rgb(221,75,57);
+}
+.Action_analysis{
+	width: 100%;
+	height: 150px;
+	background-color: white;
+	margin-top:8px;
+}
+.section_content_one{
+	height: 90px;
+}
+.section_content_two{
+	height: 90px;
+}
+.section_content_three{
+	height: 90px;
+}
+.section_content_four{
+	height: 90px;
+}
+.section_box_two{
+	width: 100%;
+	border:1px solid rgb(232,232,232);
+	background-color: rgb(249,249,249);
+}
+.section_box_two>.section_head{
+	width: 100%;
+	padding: 5% 4%;
+	font-size: 14px;
+}
+.section_box_two>.section_content{
+	width: 100%;
+	overflow-x: auto;
+}
+.section_box_two>.section_content>.section_content_1{
+	width: 200%;
+}
+.section_box_two>.section_content>.section_content_1>div{
+	width: 24%;
+	display: inline-block;
+}
+.section_box_two>.section_content>.section_content_1>div>a>img{
+	width:100%;
+	border-radius: 10px;
+}
+::-webkit-scrollbar{
+	width:0px;
+}
+
+.image_one{
+	width: 40px;
+	height: 40px;
+}
+.advice{
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid rgba(245,245,245,0.7);
+	margin-top:8px;
+	background-color: white;
+}
+.advice>p{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.advice>span{
+	font-size: 12px;
+	color: rgba(189,193,196,1);
+}
+.people{
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid rgba(245,245,245,0.7);
+	background-color: white;
+}
+.people>p{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.people>span{
+	font-size: 12px;
+	color: rgba(189,193,196,1);
+}
+.note{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+.note>p{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.note>span{
+	font-size: 12px;
+	color: rgba(189,193,196,1);
+}
+.big_punch_card{
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	margin-top: 8px;
+	border-bottom: 1px solid rgba(245,245,245,0.7);
+}
+.punch_card{
+	width: 100%;
+	height: 80px;
+	background-color: white;
+    border-bottom: 1px solid rgba(245,245,245,0.7);
+}
+.Comment{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	line-height: 35px;
+
+}
+.other{
+	width: 100%;
+	height: 200px;
+	background-color: white;
+	margin-top: 8px;
+}
+.Training_one>img{
+	position: absolute;
+	left: 279px;
+}
+.Training_one{
+	width: 92%;
+	height: 150px;
+	border:1px solid white;
+	margin-left: 15px;
+	background-color: white;
+	border-radius: 11px;
+	background-image: url(../images/introduction_one.jpg);
+	background-size: 100% 150px;
+	opacity: 0.9;
+	position: relative;
+
+}
+.Training_one>span{
+	color: white;
+	font-size: 25px;
+}
+.Training_one>p{
+    color: white;
+}
+.Training_num{
+	position: relative;
+	top: 45%;
+}
+.foot{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 44px;
+	border: 1px solid rgb(222,222,223);
+	/*line-height:44px;*/
+	color: rgb(192,192,192);
+	position: fixed;
+	bottom:0px;
+	z-index: 201;
+	background-color: white;
+}
+.foot>div{
+	font-size: 12px;
+	padding-top: 1%;
+	margin-left:9%;
+}
+.start{
+	width: 440%;
+	background-color:rgb(221,75,57);
+	
+}
+.immediately{
+	width: 100%;
+    height: 44px;
+    line-height: 35px;
+    color: white;
+    position: absolute;
+    left: 200px;
+    
+}
+.foot>div>a>img{
+ width: 440%;
+ height: 44px;
+
+}
+.foot>div>a>img{
+   color: rgba(179,179,179,1);
+   margin-top: -4px;
+   margin-left: -32px;
+}
+footer{
+	padding-bottom: 46px;
+}
