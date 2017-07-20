@@ -6,7 +6,7 @@ $.ajax({
 		console.log(obj);
 		for(var i = 0; i < obj.length; i++){
 			var li = $('<li></li>');
-			var a = $('<a href=""></a>');
+			var a = $('<a href="details_page_m.html"></a>');
 			var img =$('<img src="" alt="" />');
 			img.attr("src",obj[i].image);
 			a.append(img);

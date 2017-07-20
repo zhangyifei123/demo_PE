@@ -1,0 +1,284 @@
+*{
+	margin:0px;
+	padding: 0px;
+	-webkit-tap-highlight-color:transparent;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	font-family: "微软雅黑";
+	color: #333;
+	font-size: 14px;
+	background-color: rgba(245,245,245,1);
+
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+input{
+	border:none;
+	outline: none;
+	-webkit-appearance:none;
+}
+ul,ol{
+	list-style: none;
+}
+.big_header,.foot,.head,.Calendar_head,.head_nav{
+	width: 100%;
+	min-width: 320px;
+	margin:0 auto;
+	max-width: 640px;
+}
+.head{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 44px;
+	line-height:44px;
+	color: rgb(54,54,55);
+	z-index: 2000;
+	background-color: rgba(221,76,57,1);
+}
+.head>p{
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+.head>a>.Calendar{
+	margin-left: -25px;
+	margin-top: 10px;
+}
+.head>a>.Search{
+	margin-right: -25px;
+	margin-top: 10px;
+}
+.head_nav{
+	width: 100%;
+	height: 44px;
+	background-color: rgba(221,76,57,1);
+	line-height: 44px;
+	display: flex;
+	justify-content: space-around;
+	padding: 0 8%;
+
+}
+.qwe{
+	width: 50%;
+	height: 50%;
+}
+.qwe>img{
+	width: 90%;
+	border-radius:10px;
+	margin-top: 12px;
+}
+.photo_one{
+	width: 50%;
+	height: 50%;
+}
+.photo_one>img{
+	width: 90%;
+	border-radius:10px;
+	margin-top: 12px;
+}
+.Training_day{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+.rough{
+	width: 45px;
+	height: 40px;
+	position: relative;
+	left: 200px;
+	line-height:40px;
+	background-color: rgba(205,205,205,1);
+	border-radius: 3px;
+	color: white;
+}
+.rule{
+	width: 100%;
+	border:1px solid rgba(205,205,205,0.2);
+	
+}
+.Man_of_Steel{
+	position: relative;
+	left: 170px;
+    top: -100px;
+    color: black;
+}
+.abdomen{
+	position: relative;
+	left: 170px;
+    top: -100px;
+    color: black;
+}
+.Man_of_min{
+	position: relative;
+	left: 170px;
+    top: -90px;
+}
+.chapbook{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+}
+.Plan{
+	border-bottom: 3px solid white;
+}
+.head_nav>.Plan>.Plan_span{
+	color: white;
+}
+.free{
+	color: rgba(254,157,174,1);
+}
+#More{
+	position: fixed;
+	left: 80%;
+	top: 79%;
+}
+header{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 2000;
+}
+.Calendar_head{
+	height: 45px;
+}
+.Calendar_head>a{
+	display: block;
+}
+.Calendar_head>a>ul{
+	background-color: rgba(221,76,57,1);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5%;
+
+}
+.Calendar_head>a>ul>li{
+	color: white;
+	margin-top: 2%;	
+}
+
+.First_week{
+	width: 100%;
+	margin-top: 133px;
+}
+.First_week_one{
+	width: 100%;
+	height: 90px;
+	background-image:linear-gradient(180deg,rgb(245,140,113),rgb(242,115,96));
+	overflow: hidden;
+
+}
+.First_week_one>h5{
+	margin-left: 5%;
+	color: white;
+}
+.First_week_one>span{
+	margin-left: 3%;
+	color: rgba(250,190,188,1);
+	font-size: 12px;
+}
+.First_week_one>.First_week_first{
+	position: absolute;
+	left: 80%;
+	top: 33%;
+	color: white;
+}
+.First_week_one>.First_week_next{
+	position: absolute;
+	left:80%;
+    margin-top:-3%;
+    color: white;
+}
+.First_week_one>.First_week_first>img{
+	width: 9px;
+	height: 9px;
+}
+.First_week_one>.First_week_next>img{
+	width: 9px;
+	height: 9px;
+}
+.one{
+	width: 100px;
+	height: 100px;
+	background-image: url(../images/icon_my_plan_stage_1.png);
+	background-repeat: no-repeat;
+	margin-left: 75%;
+	margin-top:  -19%;
+}
+.two{
+	width: 100px;
+	height: 100px;
+	background-image: url(../images/icon_my_plan_stage_2.png);
+	background-repeat: no-repeat;
+	margin-left: 75%;
+	margin-top:  -19%;
+}
+.mouth{
+	display:flex;
+	padding-left:5%;	
+	position: relative;
+	top:-12%;
+}
+.First_week_date{
+	height: 90px;
+	width: 80%;
+	border-left: 3px solid red;
+    margin-left:8%;
+}
+.First_week_date>img{
+	position: relative;
+	top: 65%;
+	left: -4%;
+	display: flex;
+}
+.First_week_date>span{
+	margin-top: 50px;
+}
+.Training_one{
+	width: 92%;
+	height: 260px;
+	border:1px solid white;
+	margin-left: 15px;
+	background-color: white;
+	border-radius: 11px;
+}
+.foot{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 44px;
+	border: 1px solid rgb(222,222,223);
+	/*line-height:44px;*/
+	color: rgb(192,192,192);
+	position: fixed;
+	bottom:0px;
+	z-index: 201;
+	background-color: white;
+}
+.foot>div{
+	font-size: 12px;
+	padding-top: 1%;
+	margin-left:9%;
+}
+.foot>div>a>img{
+	width: 50%;
+}
+.foot>div>a>img,p{
+   color: rgba(179,179,179,1);
+   margin-top: -2px;
+}
+.title_str{
+	color: rgba(221,75,57,1);
+}
+footer{
+	padding-bottom: 46px;
+}

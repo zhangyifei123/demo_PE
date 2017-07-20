@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width,initial-scale = 1">
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+	<!-- <script src="../bootstrap/js/bootstrap.min.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="../css/personalHomepage.css">
+</head>
+<body>
+<div class="contents">
+	<header>
+		<div class="header">
+			<a href="mine.html"><img src="../images/btn_start_train_return_n.png" alt=""></a>
+			<div class="header_content">
+				<div class="headPortrait_img">
+					<img src="../images/headPortrait.jpg" alt=""  class="img-circle">
+				</div>
+				<div class="nickname">
+					<p>毛爷爷我男神</p>
+					<a href="">1 关注</a>&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="">0 粉丝</a>
+				</div>
+				<div class="personalHomepage">
+					<a href="">编辑资料</a>
+				</div>
+			</div>
+			<div class="informations">
+				<p class="provide">天津市  河东区   女</p>
+				<p class="signature">这是一个空的签名，很个性</p>
+			</div>
+		</div>
+		<!-- <script>
+			$.ajax({
+				url:"../data/data.php?type=get_info",
+				type:"get",
+				success:function(data){
+					var obj = JSON.parse(data);
+					console.log(obj);
+				}
+			})
+		</script> -->
+	</header>
+	<section>
+		<div class="cumulative">
+			<div class="cumulativeTraining">
+				<h1>0</h1>
+				<p>累计训练&nbsp; /&nbsp; 分钟</p>
+			</div>
+			<div class="clock_in_fat_burn">
+				<div class="cumulativeClock">
+					<h3>0</h3>
+					<p>累计打卡&nbsp; /&nbsp; 天</p>
+				</div>
+				<div class="fatBurn">
+					<h3>0</h3>
+					<p>燃脂&nbsp; /&nbsp; 千卡</p>
+				</div>
+			</div>
+		</div>
+		<div class="unlock">
+				<span>你解锁的勋章会出现在这里</span>
+				<img src="../images/icon_train_hint_arrow_d.png" alt="" class="small_arrow">
+		</div>
+		<div class="dynamic">
+			<span id="dynamic">动态</span>
+			<div class="square" onclick="fun()">
+				<img src="../images/btn_show_photo_feed_n.png" alt="" id="square">&nbsp;
+				<span class="only_look_at_pictures">只看照片</span>
+			</div>
+		</div>
+			<div class="section_text_box_one"></div>
+			<div class="section_text_box_two">
+				<ul class="section_content"></ul>
+			</div>
+		<div class="issue">
+		</div>
+		<script src = "../js/personalHomepage.js"></script>
+	</section>
+</div>
+</body>
+</html>

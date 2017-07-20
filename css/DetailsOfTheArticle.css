@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding:0;
+	-webkit-tap-highlight-color:transparent;
+
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	
+}
+body{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #333;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+input{
+	border:none;
+	outline: none;
+	-webkit-appearance:none;
+}
+ul,ol{
+	list-style-type: none;
+
+}
+.content,nav,footer,table{
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+	background-color: white;
+}
+.content>header{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 44px;
+	border-bottom: 1px solid rgb(222,222,223);
+	line-height:44px;
+	color: rgb(54,54,55);
+	background-color: white;
+	position: absolute;
+	top: 0;
+	z-index: 999999;
+}
+.content>header>a>img,.content>header>img{
+	height: 50%;
+	margin-top: 11px;
+}
+.content>header>a>img{
+	width:50%;
+	margin-top: 0px;
+}
+.content>header>div{
+	margin-right: 40%;
+}
+.content>.Forwarding_table{
+	width: 100%;
+	text-align: center;
+	background-color: rgb(250,250,250);
+	display: none;
+	position: fixed;
+	bottom: 0;
+	z-index: 9999;
+
+}
+.content>table>tbody>tr>.Cancel{
+	width: 100%;
+	height: 44px;
+	background-color: rgb(255,255,255);
+}
+.content>table>tbody>tr>td>a>img{
+	width: 60px;
+	height: 60px;
+	text-align: center;
+}
+.content>footer{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	bottom: 0;
+}
+.content>footer>table{
+	width: 100%;
+	height: 56px;
+	border-top:1px solid rgb(222,222,223);
+	z-index: 999;
+}
+.content>footer>table>tbody>tr>td{
+	text-align: center;
+	width: 33%;
+
+}
+.content>footer>table>tbody>tr>td>span{
+	font-size: 15px;
+	color: gray;
+	line-height: 22px;
+	padding-left:3%;
+
+}
+#td_two{
+	border-left:1px solid rgb(204,204,204);
+	border-right:1px solid rgb(204,204,204);
+}
+main{
+	margin:  5% 2.5%;
+	z-index: 999999999;
+	/*position: relative;
+	top: 50px;*/
+	
+}
+main>div{
+	width: 100%;
+}
+main>div>div>.img-circle{
+	width: 60px;
+	height: 60px;
+}
+main>div>div{
+	display: inline-block;
+	vertical-align: middle;
+}
+main>div>div>.attention{
+	border:1px solid red;
+	padding: 3px 20px;
+	border-radius: 50px;
+	color:red;
+	z-index: 999999;
+}
+main>div>.atten_div{
+	float: right;
+	margin-top: 6%;
+	z-index: 999999;
+}
+main>div>.atten_div>.bgcolor{
+	background-color: rgb(210,210,210);
+	border:1px solid rgb(210,210,210);
+	color: white;
+	padding: 3px 0px;
+}
+iframe{
+	position: absolute;
+	top: -15px;
+	left: 1%;
+}
+.full_page{
+	width: 100%;
+	height: 1800px;
+	background-color: gray;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	display: none;
+}

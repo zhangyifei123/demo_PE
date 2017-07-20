@@ -53,7 +53,7 @@ $.ajax({
     	var sift = JSON.parse(data).feeds;
     	for(var i = 0; i < sift.length; i++){
     		var li = $("<li class='li'></li>");
-    		var a = $("<a href=''></a>");
+    		var a = $("<a href='personalHomepage.html'></a>");
     		var p = $("<p class='p'></p>");
     		var img = $("<img src='' alt='' class='img' />");
     		var span = $("<span class='span'></span>");
@@ -65,7 +65,7 @@ $.ajax({
     		var span1 = $("<span></span>");
     		var img3 = $("<img src='' alt='' />");
     		var span2 = $("<span></span>");
-    		var a2 = $("<a href=''></a>");
+    		var a2 = $("<a href='details_page_m.html'></a>");
     		img1.attr("src",sift[i].meta.image);
     		p1.text(sift[i].meta.text);
     		div.prepend(img2);

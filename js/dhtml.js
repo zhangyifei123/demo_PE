@@ -8,10 +8,10 @@ $.ajax({
             var div = $("<div></div>");
             var img = $("<img src='' alt='' />");
             var p = $("<p></p>");
-            var a = $("<a href=''></a>");
+            var a = $("<a href='personalHomepage.html'></a>");
             var img1 = $("<img src='' alt='' class='getting' />");
             var img2 = $("<img src='' alt='' />");
-            var a1 = $("<a href=''></a>");
+            var a1 = $("<a href='details_page_m.html'></a>");
             a.prepend(img);
             a.append(p);
             div.prepend(a);
@@ -52,7 +52,7 @@ $.ajax({
         for(var i = 5; i < 7; i++){
             var div2 = $("<div class='middle_box_box'></div>");
             var div = $("<div class='middle_box_head'></div>");
-            var a = $("<a href=''></a>");
+            var a = $("<a href='personalHomepage.html'></a>");
             var img = $("<img src='' alt='' />");
             var p = $("<p></p>");
             a.prepend(img);
@@ -63,7 +63,7 @@ $.ajax({
             p.text("由" +banners.feeds[i].recommend_from+ "推荐");
 
             var div1 = $("<div class='middle_box_section_div'></div>");
-            var a1 = $("<a href=''></a>");
+            var a1 = $("<a href='project.html'></a>");
             var img1 = $("<img src='' alt='' />");
             var p1 = $("<p class='name'></p>");
             var img2 = $("<img src='' alt='' />");
@@ -85,8 +85,8 @@ $.ajax({
             var span = $("<span></span>");
             var span1 = $("<span></span>");
             var span2 = $("<span></span>");
-            var a3 = $("<a href=''></a>");
-            var a4 = $("<a href=''></a>");
+            var a3 = $("<a href='project.html'></a>");
+            var a4 = $("<a href='project.html'></a>");
             p4.prepend(img4);
             p4.append(span);
             a3.prepend(img5);
@@ -104,7 +104,7 @@ $.ajax({
             img1.attr("src",bannerss.avatar);
             p1.text(bannerss.username);
             img2.attr("src","../images/btn_addFollow_h@2x.png");
-            var a2 = $("<a href=''></a>");
+            var a2 = $("<a href='details_page_m.html'></a>");
             var img3 = $("<img src='' alt='' />");
             a2.append(img3);
             a2.append(p2);
@@ -168,7 +168,7 @@ $.ajax({
         for(var i = 0; i < obj.length; i++){
             var li = $("<li></li>");
             var div = $("<div class='bottom_box_section_head'></div>");
-            var a = $("<a href=''></a>");
+            var a = $("<a href='personalHomepage.html'></a>");
             var img = $("<img src='' alt='' />");
             var span = $("<span></span>");
             var img1 = $("<img src='' alt='' />");
@@ -207,9 +207,9 @@ $.ajax({
             div1.append(div4);
             li.append(div1);
             var div5 = $("<div class='bottom_box_section_head_3'></div>");
-            var a1 = $("<a href=''></a>");
-            var a2 = $("<a href=''></a>");
-            var a3 = $("<a href=''></a>");
+            var a1 = $("<a href='details_page_m.html'></a>");
+            var a2 = $("<a href='details_page_m.html'></a>");
+            var a3 = $("<a href='details_page_m.html'></a>");
             var img2 = $("<img src='' alt='' />"); 
             var img3 = $("<img src='' alt='' />"); 
             var img4 = $("<img src='' alt='' />"); 
