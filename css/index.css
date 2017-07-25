@@ -209,7 +209,7 @@ header{
 .one{
 	width: 100px;
 	height: 100px;
-	background-image: url(../images/icon_my_plan_stage_1.png);
+	background-image: url(images/icon_my_plan_stage_1.png);
 	background-repeat: no-repeat;
 	margin-left: 75%;
 	margin-top:  -19%;
@@ -217,7 +217,7 @@ header{
 .two{
 	width: 100px;
 	height: 100px;
-	background-image: url(../images/icon_my_plan_stage_2.png);
+	background-image: url(images/icon_my_plan_stage_2.png);
 	background-repeat: no-repeat;
 	margin-left: 75%;
 	margin-top:  -19%;
