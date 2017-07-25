@@ -1,9 +1,9 @@
 $.ajax({
-    url:"../data/data.php?type=plane",
+    url:"data/data.php?type=plane",
     type:"get",
     success: function (data) {
     	var banner = JSON.parse(data).plan;
-    	// console.log(banner);
+    	console.log(data);
     	var centers = banner.stages[0].days;
     	// console.log(centers);
     	$(".qwe img").attr("src",centers[1].tasks[0].meta.image);
