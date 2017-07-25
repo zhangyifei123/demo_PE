@@ -126,18 +126,18 @@ ul,ol{
 .dynamic .only_look_at_pictures{
 	color:rgb(216,48,27);
 }
-.issue{
-	width:100%;
-	background-color:white;
-	padding:50% 30%;
-}
-.issue p{
-	margin-top:10%;
-	color: rgba(179,179,179,1);
-	font-size: 12px;
-	width:100%;
-	text-align:center;
-}
+// .issue{
+// 	width:100%;
+// 	background-color:white;
+// 	padding:50% 30%;
+// }
+// .issue p{
+// 	margin-top:10%;
+// 	color: rgba(179,179,179,1);
+// 	font-size: 12px;
+// 	width:100%;
+// 	text-align:center;
+// }
 .section_text_box_one{
 	width: 100%;
 	display:none;
@@ -219,7 +219,7 @@ ul,ol{
 }
 .section_content>li>p>span{
 	border-right:1px solid rgb(222,222,222);
-	padding:0 32px; 
+	padding:0 20px;
 	font-size: 12px;
 }
 .section_content>li>p>.last_border{
